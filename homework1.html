@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>danh mục sản phẩm</title>
+    </head>
+    <body>
+        <style>
+            ul#main-menu .sub-menu{
+                display: none;
+            }
+            ul#main-menu li:hover .sub-menu{
+                display: block;
+            }
+        </style>
+        <style>
+            ul#menu-chinh .menu-1{
+                display: none;
+            }
+            ul#menu-chinh li:hover .menu-1{
+            
+                display: block;
+            }
+        </style>
+        <style>
+            ul#menucon1 .menucon2{
+                display: none;
+            }
+            ul#menucon1 li:hover .menucon2{
+            
+                display: inline-block;
+            }
+        </style>
+        <style>
+            ul#menucon2 .menu-3{
+                display: none;
+            }
+            ul#menucon2 li:hover .menu-3{
+            
+                display: block;
+            }
+        </style>
+        <style>
+            ul#menucon3 .menu-4{
+                display: none;
+            }
+            ul#menucon3 li:hover .menu-4{
+            
+                display: block;
+            }
+        </style>
+        <style>
+            ul#menucon4 .menu-5{
+                display: none;
+            }
+            ul#menucon4 li:hover .menu-5{
+            
+                display: block;
+            }
+            .mn{
+                list-style-type: none;
+            }
+            
+        </style>
+        <ul class="mn"id="main-menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Về Unitop</a></li>
+            <li><a href="#">Khóa học</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Html Css 21 Ngày</a></li>
+                    <li><a href="#">Php Master</a></li>
+                    <li><a href="#">Bootstrap AZ</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+        <h2>Category</h2>
+        <ul type="none" id="menu-chinh">
+            <li><a href="#" >Menu item1</a></li>
+            <li><a href="#">Menu item2</a></li>
+            <li><a href="#"> Menu item3</a>
+              <ul type="none" id="menucon1" class="menu-1">
+                <li><a href="#">Menu item3.1</a></li>
+                <li><a href="#">Menu item3.2</a></li>
+                <li><a href="#">Menu item3.3</a></li>
+                <li><a href="#">Menu item3.4</a></li>
+                        <ul type="none" id="menucon2" class="menucon2">
+                        <li><a href="#">Menu item3.4.1</a></li>
+                        <li><a href="#">Menu item3.4.2</a></li>
+                        <li><a href="#">Menu item3.4.3</a></li>
+                        <li><a href="#">Menu item3.4.4</a></li>
+                        <li><a href="#">Menu item3.4.5</a>
+                            <ul type="none" id="menucon3" class="menu-3">
+                                <li><a href="#">Menu item3.4.5.1</a></li>
+                                <li><a href="#">Menu item3.4.5.2</a></li>
+                                <li><a href="#">Menu item3.4.5.3</a></li>
+                                <li><a href="#">Menu item3.4.5.4</a</li>
+                            <ul type="none" id="menucon4" class="menu-4">
+                                    <li><a href="#">Menu item3.4.5.4.1</a></li>
+                                    <li><a href="#">Menu item3.4.5.4.2</a></li>
+                                    <li><a href="#">Menu item3.4.5.4.3</a></li>
+                                    <li><a href="#">Menu item3.4.5.4.4</a>
+                                        <ul type="none" class="menu-5">
+                                            <li><a href="#">Menu item3.4.5.4.4.1</a></li>
+                                            <li><a href="#">Menu item3.4.5.4.4.1</a></li>   
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </ul>
+                            </li>
+                           
+                        </li>
+                    </ul>
+    
+                    </ul>
+            
+                </li>
+              </ul></li>
+            <li><a href="#"></a> Menu item4</li>
+            <li>Menu item5</li>
+            <li>Menu item6</li>
+        </ul>
+    </body>
+</html>

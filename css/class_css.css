@@ -1,0 +1,10 @@
+a{
+    color: yellow;
+    text-emphasis: none;
+}
+a.whitewine{
+    color: purple;
+}
+a.redwine{
+    color: red;
+}
