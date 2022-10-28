@@ -1,0 +1,116 @@
+.container{
+    width: 1000px;
+    border: 2px solid black;
+    height: 1000px;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 100px 200px;
+}
+.logo{
+    
+    max-width: 100px;
+    height: auto;
+}
+.a{
+    max-width: 250px;
+    height: auto;
+}
+.header{
+    background-color: burlywood;
+    border: 1px solid black;
+    height: 180;
+}
+#mn1{
+    margin: 10px;
+    background-color: bisque;
+    border: 1px solid black;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+#mn1 .mn2 {
+    display: none;
+}
+#mn1 li:hover .mn2 {
+    display: block;
+}
+#mn1 .mn3{
+    display: none;
+}
+#mn1 li:hover .mn3{
+    display: block;
+}
+#mn1 .mn4{
+    display: none;
+}
+#mn1 li:hover .mn4{
+    display: block;
+}
+#mn1 .mn5{
+    display: none;
+}
+#mn1 li:hover .mn5{
+    display: block;
+}
+#menuchinh  .m1{
+    display: none;
+}
+#menuchinh li:hover .m1{
+    display: block;
+}
+.m1 .m2{
+    display: none;
+}
+.m1 li:hover .m2{
+    display: block;
+}
+.m2 .m3{
+    display: none;
+}
+.m2 li:hover .m3{
+    display: block;
+}
+.m3 .m4{
+    display: none;
+}
+.m3 li:hover .m4{
+    display: block;
+}
+.m4 .m5{
+    display: none;
+}
+.m4 li:hover .m5{
+    display: block;
+}
+#menuchinh{
+    border: 1px solid black;
+    width: 100px;
+    color: blue;
+    list-style: none;
+    padding: 1px;
+} 
+.m1 ,.m2 ,.m3 ,.m4 ,.m5{
+    width: 1000px;
+    color: blue;
+    list-style: none;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.product{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.ND1{
+    font-size: 10000%;
+}
+.product img{
+    background-color: brown;
+    width: 1000000px;
+    height: 1000000px;
+    margin: 10px;
+}
