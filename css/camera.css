@@ -1,116 +1,154 @@
-.container{
-    width: 1000px;
-    border: 2px solid black;
-    height: 1000px;
-}
 
+/* tạo khung lớn */
+.container{
+    width: 1300px;
+    border: 2px solid black;
+    height: 1185px;
+}
+/* Tạo phần logo và chữ */
 .banner{
     display: grid;
     grid-template-columns: 100px 200px;
 }
+/* Thay đổi kích thước logo */
 .logo{
     
     max-width: 100px;
     height: auto;
 }
-.a{
+/* .a{
     max-width: 250px;
     height: auto;
-}
+} */
+/* Tạo khung và màu cho phần header */
 .header{
     background-color: burlywood;
     border: 1px solid black;
-    height: 180;
+    height: 190;
 }
-#mn1{
-    margin: 10px;
+/* Tạo bố cục,khung,màu cho phần menu ở trên header */
+.h-menu li a {
+   text-decoration: none;
+}
+.h-menu{
     background-color: bisque;
-    border: 1px solid black;
+    height: 88px;
     list-style: none;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    color: brown;
+    font-size: 20px;
 }
-#mn1 .mn2 {
+.h-menu ul a:hover{
+    background: black;
+    color: whitesmoke;
+}
+.h-menu li ul{
+    position: absolute;
     display: none;
+    width: 200px;
 }
-#mn1 li:hover .mn2 {
+.h-menu li:hover ul{
     display: block;
 }
-#mn1 .mn3{
-    display: none;
-}
-#mn1 li:hover .mn3{
-    display: block;
-}
-#mn1 .mn4{
-    display: none;
-}
-#mn1 li:hover .mn4{
-    display: block;
-}
-#mn1 .mn5{
-    display: none;
-}
-#mn1 li:hover .mn5{
-    display: block;
-}
-#menuchinh  .m1{
-    display: none;
-}
-#menuchinh li:hover .m1{
-    display: block;
-}
-.m1 .m2{
-    display: none;
-}
-.m1 li:hover .m2{
-    display: block;
-}
-.m2 .m3{
-    display: none;
-}
-.m2 li:hover .m3{
-    display: block;
-}
-.m3 .m4{
-    display: none;
-}
-.m3 li:hover .m4{
-    display: block;
-}
-.m4 .m5{
-    display: none;
-}
-.m4 li:hover .m5{
-    display: block;
-}
-#menuchinh{
-    border: 1px solid black;
-    width: 100px;
-    color: blue;
+
+/* Tạo menu cho Category */
+
+ul.drop{
     list-style: none;
-    padding: 1px;
-} 
-.m1 ,.m2 ,.m3 ,.m4 ,.m5{
-    width: 1000px;
-    color: blue;
-    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    border: 1px solid ;
+    border-top: 1px solid green;
 }
+ul.drop li,ul.drop li a{
+    border-bottom: 1px solid green;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 5px;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: darkblue;
+}
+ul.drop li:hover,ul.drop li a:hover{
+   display: block;
+   background-color: blueviolet;
+   color: aqua;
+}
+ul.drop li>ul.drop{
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: none;
+    border-right: 1px solid green;
+    background-color: blueviolet;
+
+}
+ul.drop li:hover>ul.drop{
+    display: block;
+}
+/* Tạo bố cục hiện thị cho phần content(chia ra 2 phần 1 phần
+menu 1 phần hình ảnh camera */
 .content{
+    background-color: gray;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 15.5% 50%;
 }
+/* Tạo bố cục hiện thị ở phần product là 3 ảnh trên 1 dòng */
 .product{
-    
+    padding: 10px;
+    margin: 30px;
     display: grid;
     grid-template-columns: auto auto auto;
+
 }
-.ND1{
-    font-size: 10000%;
+/* Tạo phần khung ở phần product */
+.PRODUCT1{
+    border: 1px solid;
+    width: 1035px;
+    height: 1000px;
 }
+/* Thay đổi kích thước các ảnh trong phần product */
 .product img{
-    background-color: brown;
-    width: 1000000px;
-    height: 1000000px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
 }
+/* Tạo màu,khung cho từng ảnh camera */
+.anh1{
+    border: 1px solid white;
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    margin: 7px;
+
+}
+/* Tạo màu chữ và vị trí cho dòng chữ LUMIX DMC-2 */
+.text{
+    color: blue;
+    text-align: center;
+}
+/* Tạo màu chữ và vị trí cho dòng chữ DIGITAL CAMERA */
+.text2{
+    text-align: center;
+}
+/* Tạo màu chữ và trị cho dòng chữ Please call */
+.text3{
+    text-align: center;
+    color: red;
+}
+/* Tạo màu khung vị trí cho dòng chữ Add to cart */
+.text4{
+    color: yellow;
+    text-align: center;
+    border: 1px solid;
+    width: 250px;
+    padding: 10px;
+    margin: 52px;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+
