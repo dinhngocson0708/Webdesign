@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+       <marquee class="text" scrollamount="4">
+       Hello ido of our team! We are really Love you so much. Thanks a lot when we have problem, you always beside us and help us over</marquee>
+    </header>
+    <content>
+        <div class="intro">
+            <form>
+                <label>Fullname_Customer</label> <br/> 
+                <input class="form-control" type="text" name="Fullname_cus" id="name" onkeypress="return isCharacterKey(event)" required> <br/> 
+                <label>Id_Pro</label> <br/>
+                <input class="form-control" type="text" name="Id_Pro" id="id" onkeypress="return isNumberKey(event)" required> <br/> 
+                <label>Name_Pro</label> <br/>
+                <input class="form-control" type="text" name="Name_Pro" id="i_p" required> <br/> 
+                <label>Quantity_Pro</label> <br/>
+                <input class="form-control" type="text" name="Quantity_Pro" id="q_p" onkeypress="return isNumberKey(event)" required> <br/>  
+                <label>Price_Pro</label> <br/>
+                <input class="form-control" type="text" name="Price_Pro" id="price" onkeypress="return isNumberKey(event)" required> <br/> <br/> 
+                <!-- button -->
+                <input class="btn1" type="button" onclick="savedata()" name="ok" value="Save" id="bt">
+                <input class="btn2" type="button" onclick="showdata()" name="show" value="Show" id="show">
+                <input class="btn2" type="reset" name="reset" value="Reset" id="reset">
+            </form> <br/> <br/>
+            <table border="1">
+                <tr>
+                    <th>Auto_Increment</th>
+                    <th>Fullname_Customer</th>
+                    <th>Id_Pro</th>
+                    <th>Name_Pro</th>
+                    <th>Quantity_Pro</th>
+                    <th>Price_Pro</th>
+                    <th>Discount</th>
+                    <th>Amount</th>
+                    <th>Total</th>
+                </tr>
+            </table>
+        </div>
+    </content>
+    <script type="text/javascript" src="mang.js"></script>
+</body>
+</html>
